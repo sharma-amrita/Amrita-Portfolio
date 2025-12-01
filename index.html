@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amrita Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" />
     <style>
         /* CSS Reset and Base Styles */
         * {
@@ -18,7 +18,7 @@
         }
 
         :root {
-            --primary-color: #FF9933;
+            --primary-color: #ff9933;
             /* Indian Flag Orange */
             --text-color: #ffffff;
             --secondary-text: #b0b0b0;
@@ -27,14 +27,14 @@
             --card-bg: #111111;
             --accent-color: #7e57c2;
             --sidebar-bg: linear-gradient(180deg, #0a0a0a 0%, #1a1a1a 100%);
-            --sidebar-border: linear-gradient(180deg, #FF9933, #7e57c2);
+            --sidebar-border: linear-gradient(180deg, #ff9933, #7e57c2);
         }
 
         html,
         body {
             background: var(--bg-color);
             color: var(--text-color);
-            font-family: 'Inter', sans-serif;
+            font-family: "Inter", sans-serif;
             line-height: 1.6;
             overflow-x: hidden;
             scroll-behavior: smooth;
@@ -73,7 +73,7 @@
         h4,
         h5,
         h6 {
-            font-family: 'Playfair Display', serif;
+            font-family: "Playfair Display", serif;
             font-weight: 600;
             line-height: 1.2;
         }
@@ -145,7 +145,7 @@
         }
 
         .leftside::before {
-            content: '';
+            content: "";
             position: absolute;
             top: 0;
             left: 0;
@@ -163,7 +163,7 @@
             color: var(--text-color);
             font-size: 1.6rem;
             margin-bottom: 5px;
-            font-family: 'Playfair Display', serif;
+            font-family: "Playfair Display", serif;
             letter-spacing: 1px;
         }
 
@@ -175,7 +175,9 @@
 
         .availability-badge {
             display: inline-block;
-            background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+            background: linear-gradient(90deg,
+                    var(--primary-color),
+                    var(--accent-color));
             color: white;
             padding: 4px 12px;
             border-radius: 20px;
@@ -213,7 +215,9 @@
             object-fit: cover;
             transition: transform 0.5s ease;
             border: 4px solid transparent;
-            background: linear-gradient(45deg, var(--primary-color), var(--accent-color)) border-box;
+            background: linear-gradient(45deg,
+                    var(--primary-color),
+                    var(--accent-color)) border-box;
 
             -webkit-mask-composite: xor;
             mask-composite: exclude;
@@ -243,13 +247,15 @@
         }
 
         .social-links a::before {
-            content: '';
+            content: "";
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(45deg, var(--primary-color), var(--accent-color));
+            background: linear-gradient(45deg,
+                    var(--primary-color),
+                    var(--accent-color));
             opacity: 0;
             transition: opacity 0.3s ease;
         }
@@ -356,7 +362,9 @@
             justify-content: center;
             gap: 10px;
             width: 100%;
-            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            background: linear-gradient(135deg,
+                    var(--primary-color),
+                    var(--accent-color));
             color: #000;
             border: none;
             padding: 14px 20px;
@@ -366,7 +374,7 @@
             margin: 20px 0;
             transition: all 0.4s ease;
             cursor: pointer;
-            font-family: 'Inter', sans-serif;
+            font-family: "Inter", sans-serif;
             font-size: 1rem;
             position: relative;
             overflow: hidden;
@@ -375,13 +383,16 @@
         }
 
         .hire-btn::before {
-            content: '';
+            content: "";
             position: absolute;
             top: 0;
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            background: linear-gradient(90deg,
+                    transparent,
+                    rgba(255, 255, 255, 0.2),
+                    transparent);
             transition: left 0.7s ease;
             z-index: -1;
         }
@@ -517,7 +528,7 @@
             border-radius: 30px;
             padding: 8px 20px;
             margin-bottom: 30px;
-            font-family: 'Inter', sans-serif;
+            font-family: "Inter", sans-serif;
             font-weight: 500;
         }
 
@@ -617,7 +628,7 @@
         }
 
         .timeline::before {
-            content: '';
+            content: "";
             position: absolute;
             left: 20px;
             top: 0;
@@ -641,7 +652,7 @@
         }
 
         .timeline-item::before {
-            content: '';
+            content: "";
             position: absolute;
             left: 16px;
             top: 5px;
@@ -991,7 +1002,9 @@
             display: inline-flex;
             align-items: center;
             gap: 10px;
-            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            background: linear-gradient(135deg,
+                    var(--primary-color),
+                    var(--accent-color));
             color: #000;
             border: none;
             padding: 14px 30px;
@@ -1000,7 +1013,7 @@
             text-align: center;
             transition: all 0.4s ease;
             cursor: pointer;
-            font-family: 'Inter', sans-serif;
+            font-family: "Inter", sans-serif;
             font-size: 1rem;
             position: relative;
             overflow: hidden;
@@ -1010,13 +1023,16 @@
         }
 
         .download-btn::before {
-            content: '';
+            content: "";
             position: absolute;
             top: 0;
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            background: linear-gradient(90deg,
+                    transparent,
+                    rgba(255, 255, 255, 0.2),
+                    transparent);
             transition: left 0.7s ease;
             z-index: -1;
         }
@@ -1098,13 +1114,15 @@
         }
 
         .footer-social a::before {
-            content: '';
+            content: "";
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(45deg, var(--primary-color), var(--accent-color));
+            background: linear-gradient(45deg,
+                    var(--primary-color),
+                    var(--accent-color));
             opacity: 0;
             transition: opacity 0.3s ease;
         }
@@ -1131,7 +1149,6 @@
             color: var(--secondary-text);
             font-size: 0.9rem;
         }
-
 
         /* Responsive Design */
         @media (max-width: 1024px) {
@@ -1275,34 +1292,36 @@
                     </div>
 
                     <div class="card">
-                        <img id="rotatingImage" src="./images/amrita_photo.png" alt="Amrita-Photo">
+                        <img id="rotatingImage" src="./images/amrita_photo.png" alt="Amrita-Photo" />
                     </div>
 
                     <div class="social-links">
                         <a href="mailto:amrita74sharma@gmail.com">
-                            <img src="./images/gmail.webp" alt="Gmail">
+                            <img src="./images/gmail.webp" alt="Gmail" />
                         </a>
 
                         <a href="https://www.linkedin.com/in/sharma-amrita/" target="_blank">
-                            <img src="./images/linkedin.png" alt="LinkedIn">
+                            <img src="./images/linkedin.png" alt="LinkedIn" />
                         </a>
                         <a href="https://github.com/sharma-amrita" target="_blank">
-                            <img src="./images/icons8-github-40.png" alt="GitHub">
+                            <img src="./images/icons8-github-40.png" alt="GitHub" />
                         </a>
-
                     </div>
 
                     <div class="freelancer-info">
                         <div class="rotating-text-container">
-                            <div class="rotating-text freelance active">Full Stack Developer</div>
+                            <div class="rotating-text freelance active">
+                                Full Stack Developer
+                            </div>
                             <div class="rotating-text frontend">Front-end Developer</div>
                             <div class="rotating-text backend">Back-end Developer</div>
                         </div>
-                        <p>Now accepting web and app development projects. <br> Let's build something exceptional
-                            together.</p>
+                        <p>
+                            Now accepting web and app development projects. <br />
+                            Let's build something exceptional together.
+                        </p>
                         <div class="services-list">
                             <span class="service-tag">Web Development</span>
-
                         </div>
                     </div>
 
@@ -1312,7 +1331,6 @@
                     </a>
 
                     <div class="contact-info">
-
                         <p><i class="ri-phone-line"></i> +91 8171015245</p>
                     </div>
                 </div>
@@ -1322,30 +1340,35 @@
         <div class="rightside">
             <div class="mini-side-bar">
                 <div class="nav-icons">
-                    <a href="#hero" data-tooltip="Home"><img src="./images/home.png" alt="Home"></a>
-                    <a href="#about" data-tooltip="About"><img src="./images/about.png" alt="About"></a>
+                    <a href="#hero" data-tooltip="Home"><img src="./images/home.png" alt="Home" /></a>
+                    <a href="#about" data-tooltip="About"><img src="./images/about.png" alt="About" /></a>
                     <a href="#resume" data-tooltip="Experience & Education "><img src="./images/resume.png"
-                            alt="Resume"></a>
-                    <a href="#service" data-tooltip="Services"><img src="./images/service.png" alt="Services"></a>
-                    <a href="#skills" data-tooltip="Skills"><img src="./images/skills.png" alt="Skills"></a>
-                    <a href="#project" data-tooltip="Projects"><img src="./images/projects.png" alt="Projects"></a>
-                    <a href="#footer" data-tooltip="Contact"><img src="./images/contact.png" alt="Contact"></a>
+                            alt="Resume" /></a>
+                    <a href="#service" data-tooltip="Services"><img src="./images/service.png" alt="Services" /></a>
+                    <a href="#skills" data-tooltip="Skills"><img src="./images/skills.png" alt="Skills" /></a>
+                    <a href="#project" data-tooltip="Projects"><img src="./images/projects.png" alt="Projects" /></a>
+                    <a href="#footer" data-tooltip="Contact"><img src="./images/contact.png" alt="Contact" /></a>
                 </div>
             </div>
 
             <section class="section hero" id="hero">
                 <div class="section-title">
-                    <img src="./images/home.png" alt="Home"> Introduction
+                    <img src="./images/home.png" alt="Home" /> Introduction
                 </div>
 
-                <h1 class="hero-heading">I'm <span class="text-orange">Amrita</span>,<br>turning caffeine into clean
-                    code & cool designs.</h1>
+                <h1 class="hero-heading">
+                    I'm <span class="text-orange">Amrita</span>,<br />turning caffeine
+                    into clean code & cool designs.
+                </h1>
 
                 <p class="section-text hero-text">
-                    <marquee> Full Stack Developer, Web Devloper, Where Creativity Meets Code </marquee><br>
-                    I work where design and development overlap, crafting clean, intentional experiences that feel as
-                    good as they look. I believe simplicity is powerful and I love creating with purpose. My websites?
-                    They're like my coffee: smooth, strong, and exactly how they should be.
+                    <marquee>
+                        Full Stack Developer, Web Devloper, Where Creativity Meets Code </marquee><br />
+                    I work where design and development overlap, crafting clean,
+                    intentional experiences that feel as good as they look. I believe
+                    simplicity is powerful and I love creating with purpose. My
+                    websites? They're like my coffee: smooth, strong, and exactly how
+                    they should be.
                 </p>
 
                 <div class="facts" id="facts-counter">
@@ -1375,33 +1398,39 @@
 
             <section class="section" id="about">
                 <div class="section-title">
-                    <img src="./images/about.png" alt="About"> About
+                    <img src="./images/about.png" alt="About" /> About
                 </div>
 
-                <h2 class="section-heading">Turning ideas into reality, <span class="text-orange">one line at a
-                        time</span></h2>
+                <h2 class="section-heading">
+                    Turning ideas into reality,
+                    <span class="text-orange">one line at a time</span>
+                </h2>
 
                 <p class="section-text">
-                    Web Developer with a passion for crafting clean, responsive, and user-friendly websites. I focus on
-                    creating digital experiences that not only look great but perform seamlessly. Whether it's designing
-                    intuitive UIs or coding scalable backends, I love every part of the process. I believe in
-                    simplicity, speed, and putting users first always.
+                    Web Developer with a passion for crafting clean, responsive, and
+                    user-friendly websites. I focus on creating digital experiences that
+                    not only look great but perform seamlessly. Whether it's designing
+                    intuitive UIs or coding scalable backends, I love every part of the
+                    process. I believe in simplicity, speed, and putting users first
+                    always.
                 </p>
             </section>
 
             <section class="section" id="resume">
-
-
-                <h2 class="section-heading">Experience & <span class="text-orange">Education</span></h2>
+                <h2 class="section-heading">
+                    Experience & <span class="text-orange">Education</span>
+                </h2>
 
                 <!-- Resume Download Section -->
                 <div class="section-title">
-                    <img src="./images/cv.png" alt="Resume"> Resume
+                    <img src="./images/cv.png" alt="Resume" /> Resume
                 </div>
                 <div class="resume-download">
                     <h3>Download My Resume</h3>
-                    <p>Curious about my story? <br>Download my resume for a friendly walkthrough of my work,
-                        experiences, and passions.</p>
+                    <p>
+                        Curious about my story? <br />Download my resume for a friendly
+                        walkthrough of my work, experiences, and passions.
+                    </p>
                     <a href="./resume/Amrita_Sharma_webdevloper.pdf" class="download-btn" download>
                         <i class="ri-download-line"></i>
                         Download Resume (PDF)
@@ -1413,32 +1442,38 @@
                     <!-- Experience Card -->
                     <div class="resume-card">
                         <div class="resume-card-header">
-                            <img src="./images/briefcase.png" alt="Experience">
+                            <img src="./images/briefcase.png" alt="Experience" />
                             <h3>Experience</h3>
                         </div>
 
                         <div class="resume-item">
                             <div class="resume-date">Nov 2025 - Present</div>
                             <h4 class="resume-title">Full Stack Developer</h4>
-                            <div class="resume-company">Pss Techno Service Private Limited</div>
-                            <p class="resume-description">Internship Management Portal
-                                Serving as a Web Developer at Pass Techno Service Pvt. Ltd. since November 2024, with a
-                                primary focus on PHP and Laravel-based application development. The role involves
-                                developing robust backend features, working with relational databases, implementing
-                                authentication and security protocols, integrating APIs, and ensuring application
-                                stability, scalability, and efficiency throughout the development lifecycle.</p>
+                            <div class="resume-company">
+                                Pss Techno Service Private Limited
+                            </div>
+                            <p class="resume-description">
+                                Internship Management Portal Serving as a Web Developer at
+                                Pass Techno Service Pvt. Ltd. since November 2024, with a
+                                primary focus on PHP and Laravel-based application
+                                development. The role involves developing robust backend
+                                features, working with relational databases, implementing
+                                authentication and security protocols, integrating APIs, and
+                                ensuring application stability, scalability, and efficiency
+                                throughout the development lifecycle.
+                            </p>
                         </div>
 
                         <div class="resume-item">
                             <div class="resume-date">March 2024 - April 2024</div>
                             <h4 class="resume-title">Web Designer Internship</h4>
                             <div class="resume-company">Pearl organisation</div>
-                            <p class="resume-description">Created an event planner website with a Package
-                                selection to allow user-created event packages.
-                                <br>Implemented Nodemailer , Razorpay for secure
-                                online transactions, facilitating smooth
-                                processing of transactions.
-                                Implemented Mongo Db for storing user & event
+                            <p class="resume-description">
+                                Created an event planner website with a Package selection to
+                                allow user-created event packages. <br />Implemented
+                                Nodemailer , Razorpay for secure online transactions,
+                                facilitating smooth processing of transactions. Implemented
+                                Mongo Db for storing user & event
                             </p>
                         </div>
                     </div>
@@ -1446,33 +1481,45 @@
                     <!-- Education Card -->
                     <div class="resume-card">
                         <div class="resume-card-header">
-                            <img src="./images/resume.png" alt="Education">
+                            <img src="./images/resume.png" alt="Education" />
                             <h3>Education</h3>
                         </div>
 
                         <div class="resume-item">
                             <div class="resume-date">2020 - 2024</div>
-                            <h4 class="resume-title">B.Tech (Computer Science & Engineering)</h4>
-                            <div class="resume-company">Guru Ram Das Institute of Management and technology</div>
-                            <p class="resume-description">Graduated with a focus on software development, algorithms,
-                                and web technologies. Completed multiple projects in web development and database
-                                management.</p>
+                            <h4 class="resume-title">
+                                B.Tech (Computer Science & Engineering)
+                            </h4>
+                            <div class="resume-company">
+                                Guru Ram Das Institute of Management and technology
+                            </div>
+                            <p class="resume-description">
+                                Graduated with a focus on software development, algorithms,
+                                and web technologies. Completed multiple projects in web
+                                development and database management.
+                            </p>
                         </div>
 
                         <div class="resume-item">
                             <div class="resume-date">2018 - 2019</div>
                             <h4 class="resume-title">Higher Secondary Education</h4>
-                            <div class="resume-company">Kanchanjunga English Secondary School</div>
-                            <p class="resume-description">Completed 12th grade with Physics, Chemistry, and Mathematics,
-                                Biology as main subjects.</p>
+                            <div class="resume-company">
+                                Kanchanjunga English Secondary School
+                            </div>
+                            <p class="resume-description">
+                                Completed 12th grade with Physics, Chemistry, and Mathematics,
+                                Biology as main subjects.
+                            </p>
                         </div>
 
                         <div class="resume-item">
                             <div class="resume-date">2016 - 2017</div>
                             <h4 class="resume-title">Secondary Education</h4>
                             <div class="resume-company">G.H.P Secondary School</div>
-                            <p class="resume-description">Completed 10th grade with a focus on foundational sciences and
-                                mathematics.</p>
+                            <p class="resume-description">
+                                Completed 10th grade with a focus on foundational sciences and
+                                mathematics.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -1480,20 +1527,23 @@
 
             <section class="section" id="service">
                 <div class="section-title">
-                    <img src="./images/service.png" alt="Services"> Services
+                    <img src="./images/service.png" alt="Services" /> Services
                 </div>
 
-                <h2 class="section-heading">My <span class="text-orange">Specializations</span></h2>
+                <h2 class="section-heading">
+                    My <span class="text-orange">Specializations</span>
+                </h2>
 
                 <div class="services-grid">
                     <div class="service-card">
                         <div class="service-header">
                             <h2>Front-End Development</h2>
-                            <img src="./images/design.png" alt="Design">
+                            <img src="./images/design.png" alt="Design" />
                         </div>
                         <p>
-                            Code, coffee, and creativity that's my workflow. I craft front-end magic with HTML, CSS,
-                            and JavaScript (sometimes with React spells). Making things look cool and work great is my
+                            Code, coffee, and creativity that's my workflow. I craft
+                            front-end magic with HTML, CSS, and JavaScript (sometimes with
+                            React spells). Making things look cool and work great is my
                             thing.
                         </p>
                     </div>
@@ -1501,12 +1551,13 @@
                     <div class="service-card">
                         <div class="service-header">
                             <h2>Back-End Development</h2>
-                            <img src="./images/coding.png" alt="Coding">
+                            <img src="./images/coding.png" alt="Coding" />
                         </div>
                         <p>
-                            MERN stack developer with a passion for building full-stack web applications using MongoDB,
-                            Express, React, and Node.js. Skilled in creating scalable RESTful APIs, responsive UIs, and
-                            seamless user experiences.
+                            MERN stack developer with a passion for building full-stack web
+                            applications using MongoDB, Express, React, and Node.js. Skilled
+                            in creating scalable RESTful APIs, responsive UIs, and seamless
+                            user experiences.
                         </p>
                     </div>
                 </div>
@@ -1514,57 +1565,58 @@
 
             <section class="section" id="skills">
                 <div class="section-title">
-                    <img src="./images/skills.png" alt="Skills"> Skills
+                    <img src="./images/skills.png" alt="Skills" /> Skills
                 </div>
 
-                <h2 class="section-heading">My <span class="text-orange">Ability</span></h2>
+                <h2 class="section-heading">
+                    My <span class="text-orange">Ability</span>
+                </h2>
 
                 <div class="skills-grid">
                     <div class="skill-item">
                         <p>HTML</p>
-                        <img src="./images/skills/html.png" alt="HTML">
+                        <img src="./images/skills/html.png" alt="HTML" />
                         <!-- <h2>100%</h2> -->
                     </div>
 
                     <div class="skill-item">
                         <p>CSS</p>
-                        <img src="./images/skills/css.png" alt="CSS">
+                        <img src="./images/skills/css.png" alt="CSS" />
                         <!-- <h2>80%</h2> -->
                     </div>
 
                     <div class="skill-item">
                         <p>JavaScript</p>
-                        <img src="./images/skills/icons8-javascript-50.png" alt="JavaScript">
+                        <img src="./images/skills/icons8-javascript-50.png" alt="JavaScript" />
                         <!-- <h2>70%</h2> -->
                     </div>
 
                     <div class="skill-item">
                         <p>Core Php</p>
-                        <img src="./images/skills/php.png" alt="Php">
+                        <img src="./images/skills/php.png" alt="Php" />
                         <!-- <h2>60%</h2> -->
                     </div>
 
                     <div class="skill-item">
                         <p>Laravel</p>
-                        <img src="./images/skills/icons8-react-50.png" alt="Laravel">
+                        <img src="./images/skills/icons8-react-50.png" alt="Laravel" />
                         <!-- <h2>50%</h2> -->
                     </div>
                     <div class="skill-item">
                         <p>MySQL</p>
-                        <img src="./images/skills/icons8-mysql-50.png" alt="MYSQL">
+                        <img src="./images/skills/icons8-mysql-50.png" alt="MYSQL" />
                         <!-- <h2>50%</h2> -->
                     </div>
 
-
                     <div class="skill-item">
                         <p>Bootstrap</p>
-                        <img src="./images/skills/icons8-bootstrap-50.png" alt="Bootstrap">
+                        <img src="./images/skills/icons8-bootstrap-50.png" alt="Bootstrap" />
                         <!-- <h2>80%</h2> -->
                     </div>
 
                     <div class="skill-item">
                         <p>GitHub</p>
-                        <img src="./images/skills/icons8-github-logo-50.png" alt="GitHub">
+                        <img src="./images/skills/icons8-github-logo-50.png" alt="GitHub" />
                         <!-- <h2>50%</h2> -->
                     </div>
                 </div>
@@ -1572,24 +1624,31 @@
 
             <section class="section" id="project">
                 <div class="section-title">
-                    <img src="./images/projects.png" alt="Projects"> Projects
+                    <img src="./images/projects.png" alt="Projects" /> Projects
                 </div>
 
-                <h2 class="section-heading">Featured <span class="text-orange">Projects</span></h2>
+                <h2 class="section-heading">
+                    Featured <span class="text-orange">Projects</span>
+                </h2>
 
                 <div class="projects-grid-square">
-
                     <div class="project-card">
                         <div class="project-content">
                             <h3 class="project-title">Global Tour Travel</h3>
                             <p class="project-description">
-                               A modern, user-friendly travel platform designed to simplify trip planning and inspire global exploration. The website features clean navigation, destination highlights, interactive maps, and integrated booking options for flights, hotels, and guided tours. Built for seamless user experience, it helps travelers discover, plan, and organize their journeys effortlessly
+                                A modern, user-friendly travel platform designed to simplify
+                                trip planning and inspire global exploration. The website
+                                features clean navigation, destination highlights, interactive
+                                maps, and integrated booking options for flights, hotels, and
+                                guided tours. Built for seamless user experience, it helps
+                                travelers discover, plan, and organize their journeys
+                                effortlessly
                             </p>
                             <div class="project-tech">
                                 <span class="tech-tag">HTML</span>
                                 <span class="tech-tag">CSS</span>
                                 <span class="tech-tag">Javascript</span>
-                                <span class="tech-tag">GSAP</span>
+                                <span class="tech-tag">PHP</span>
                             </div>
                             <div class="project-links">
                                 <a href="https://www.globaltourtravels.com/" target="_blank" class="project-link">
@@ -1601,17 +1660,18 @@
 
                     <div class="project-card">
                         <div class="project-content">
-                            <h3 class="project-title">Netflix Web Interface </h3>
+                            <h3 class="project-title">Larvel Ecommerce Website</h3>
                             <p class="project-description">
-                                A responsive clone of the Netflix landing page built using HTML, CSS, and JavaScript. It
-                                replicates the clean layout, hero section, hover effects, and overall design style of
-                                Netflix, focusing purely on UI/UX improvement.
+                                Laravel Web Application built with a clean MVC structure, dynamic routing, and
+                                user-friendly UI. Features include authentication, CRUD operations, and responsive
+                                design. Fully optimized for performance and securit
                             </p>
                             <div class="project-tech">
                                 <span class="tech-tag">HTML</span>
                                 <span class="tech-tag">CSS</span>
                                 <span class="tech-tag">Javascript</span>
-
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">Laravel</span>
                             </div>
                             <div class="project-links">
                                 <a href="" target="_blank" class="project-link">
@@ -1625,10 +1685,11 @@
                         <div class="project-content">
                             <h3 class="project-title">Eduford– University Website</h3>
                             <p class="project-description">
-                                A fully responsive university website built using HTML, CSS, and JavaScript. The project
-                                includes sections like courses, departments, admissions, faculty, and contact pages.
-                                Designed with a clean layout and user-friendly navigation suitable for academic
-                                institutions.
+                                A fully responsive university website built using HTML, CSS,
+                                and JavaScript. The project includes sections like courses,
+                                departments, admissions, faculty, and contact pages. Designed
+                                with a clean layout and user-friendly navigation suitable for
+                                academic institutions.
                             </p>
                             <div class="project-tech">
                                 <span class="tech-tag">HTML</span>
@@ -1647,9 +1708,10 @@
                         <div class="project-content">
                             <h3 class="project-title">Event Planner Website</h3>
                             <p class="project-description">
-                                A responsive event planner website where users can browse venues, make bookings, and
-                                complete payments securely via Razorpay. Includes a contact form powered by Express.js
-                                and Nodemailer for email inquiries.
+                                A responsive event planner website where users can browse
+                                venues, make bookings, and complete payments securely via
+                                Razorpay. Includes a contact form powered by Express.js and
+                                Nodemailer for email inquiries.
                             </p>
                             <div class="project-tech">
                                 <span class="tech-tag">HTML</span>
@@ -1668,14 +1730,16 @@
                         </div>
                     </div>
 
-
                     <div class="project-card">
                         <div class="project-content">
-                            <h3 class="project-title">SocialLynk – AI-Powered Social Media Management</h3>
+                            <h3 class="project-title">
+                                SocialLynk – AI-Powered Social Media Management
+                            </h3>
                             <p class="project-description">
-                                An AI-driven social media management platform that helps users schedule posts, analyze
-                                engagement, and generate content suggestions instantly. Designed with a clean dashboard
-                                UI and seamless user experience.
+                                An AI-driven social media management platform that helps users
+                                schedule posts, analyze engagement, and generate content
+                                suggestions instantly. Designed with a clean dashboard UI and
+                                seamless user experience.
                             </p>
                             <div class="project-tech">
                                 <span class="tech-tag">HTML</span>
@@ -1690,15 +1754,14 @@
                         </div>
                     </div>
 
-
-
                     <div class="project-card">
                         <div class="project-content">
-                            <h3 class="project-title">Portfolio Website </h3>
+                            <h3 class="project-title">Portfolio Website</h3>
                             <p class="project-description">
-                                The site includes a modern dark UI, smooth animations, section-based navigation and
-                                responsive layout . This project allowed me to refine my front-end skills and implement
-                                a polished, developer-ready personal brand.
+                                The site includes a modern dark UI, smooth animations,
+                                section-based navigation and responsive layout . This project
+                                allowed me to refine my front-end skills and implement a
+                                polished, developer-ready personal brand.
                             </p>
                             <div class="project-tech">
                                 <span class="tech-tag">HTML</span>
@@ -1717,14 +1780,15 @@
                         <div class="project-content">
                             <h3 class="project-title">Earnternship</h3>
                             <p class="project-description">
-                                A modern and fully responsive landing page designed for the Earnternship platform. It
-                                highlights program features, benefits, and call-to-actions with a clean UI, smooth
-                                animations, and mobile-friendly layout. </p>
+                                A modern and fully responsive landing page designed for the
+                                Earnternship platform. It highlights program features,
+                                benefits, and call-to-actions with a clean UI, smooth
+                                animations, and mobile-friendly layout.
+                            </p>
                             <div class="project-tech">
                                 <span class="tech-tag">HTML</span>
                                 <span class="tech-tag">CSS</span>
                                 <span class="tech-tag">JavaScript</span>
-
                             </div>
                             <div class="project-links">
                                 <a href="https://earnternship.com/" target="_blank" class="project-link">
@@ -1734,15 +1798,14 @@
                         </div>
                     </div>
 
-
                     <div class="project-card">
                         <div class="project-content">
                             <h3 class="project-title">Earnternship Web App</h3>
                             <p class="project-description">
-                                all-in-one platform where both students and companies can register.
-                                Companies can post internships, and students can apply, learn, and earn through real
-                                work.
-                                Based on their performance, students receive certificates and rewards
+                                all-in-one platform where both students and companies can
+                                register. Companies can post internships, and students can
+                                apply, learn, and earn through real work. Based on their
+                                performance, students receive certificates and rewards
                             </p>
                             <div class="project-tech">
                                 <span class="tech-tag">HTML</span>
@@ -1752,7 +1815,6 @@
                                 <span class="tech-tag">Node</span>
                                 <span class="tech-tag">MongoDB</span>
                                 <span class="tech-tag">Razorpay</span>
-
                             </div>
                             <div class="project-links">
                                 <a href="https://playground.earnternship.com/" target="_blank" class="project-link">
@@ -1762,16 +1824,12 @@
                         </div>
                     </div>
 
-
-
                     <div class="project-card">
                         <div class="project-content">
-                            <h3 class="project-title">Coming Soon! </h3>
-                            <p class="project-description">
-                                Pending Deployment </p>
+                            <h3 class="project-title">Coming Soon!</h3>
+                            <p class="project-description">Pending Deployment</p>
                             <div class="project-tech">
                                 <!-- <span class="tech-tag">Coming Soon</span> -->
-
                             </div>
                             <div class="project-links">
                                 <!-- <span class="project-link project-link-disabled">
@@ -1786,21 +1844,24 @@
             <!-- Footer Section -->
             <footer class="footer" id="footer">
                 <div class="footer-content">
-                    <h2 class="footer-heading">Let's <span class="text-orange">Connect & Create</span> Something</h2>
+                    <h2 class="footer-heading">
+                        Let's <span class="text-orange">Connect & Create</span> Something
+                    </h2>
                     <p class="footer-text1">
-                        Got a wild idea, a cool project, or just something techy you want to geek out about? I'm all
-                        ears. Drop by on any of the platforms below, let's make something awesome happen.
+                        Got a wild idea, a cool project, or just something techy you want
+                        to geek out about? I'm all ears. Drop by on any of the platforms
+                        below, let's make something awesome happen.
                     </p>
 
                     <div class="footer-social">
                         <a href="mailto:amrita74sharma@gmail.com">
-                            <img src="./images/gmail.webp" alt="Gmail">
+                            <img src="./images/gmail.webp" alt="Gmail" />
                         </a>
                         <a href="https://www.linkedin.com/in/sharma-amrita/" target="_blank">
-                            <img src="./images/linkedin.png" alt="LinkedIn">
+                            <img src="./images/linkedin.png" alt="LinkedIn" />
                         </a>
                         <a href="https://github.com/sharma-amrita" target="_blank">
-                            <img src="./images/icons8-github-40.png" alt="GitHub">
+                            <img src="./images/icons8-github-40.png" alt="GitHub" />
                         </a>
                     </div>
 
@@ -1814,75 +1875,76 @@
 
     <script>
         // Image error handling
-        document.addEventListener('DOMContentLoaded', function () {
-            const profileImage = document.getElementById('rotatingImage');
+        document.addEventListener("DOMContentLoaded", function () {
+            const profileImage = document.getElementById("rotatingImage");
 
             profileImage.onerror = function () {
-                console.error('Failed to load profile image');
+                console.error("Failed to load profile image");
                 // Fallback to a placeholder
-                this.src = 'https://images.unsplash.com/photo-1517530094915-500495b15ade?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzc0fHxwZW9wbGV8ZW58MHx8MHx8fDA%3D';
-                this.alt = 'Profile Image - Fallback loaded';
+                this.src =
+                    "https://images.unsplash.com/photo-1517530094915-500495b15ade?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzc0fHxwZW9wbGV8ZW58MHx8MHx8fDA%3D";
+                this.alt = "Profile Image - Fallback loaded";
             };
 
             profileImage.onload = function () {
-                console.log('Profile image loaded successfully');
+                console.log("Profile image loaded successfully");
             };
 
             // Scroll animation functionality
             const observerOptions = {
                 threshold: 0.1,
-                rootMargin: '0px 0px -50px 0px'
+                rootMargin: "0px 0px -50px 0px",
             };
 
             const observer = new IntersectionObserver(function (entries) {
-                entries.forEach(entry => {
+                entries.forEach((entry) => {
                     if (entry.isIntersecting) {
-                        entry.target.classList.add('visible');
+                        entry.target.classList.add("visible");
 
                         // Animate child elements with delay
-                        if (entry.target.classList.contains('services-grid')) {
-                            const cards = entry.target.querySelectorAll('.service-card');
+                        if (entry.target.classList.contains("services-grid")) {
+                            const cards = entry.target.querySelectorAll(".service-card");
                             cards.forEach((card, index) => {
                                 setTimeout(() => {
-                                    card.classList.add('visible');
+                                    card.classList.add("visible");
                                 }, index * 200);
                             });
                         }
 
-                        if (entry.target.classList.contains('skills-grid')) {
-                            const skills = entry.target.querySelectorAll('.skill-item');
+                        if (entry.target.classList.contains("skills-grid")) {
+                            const skills = entry.target.querySelectorAll(".skill-item");
                             skills.forEach((skill, index) => {
                                 setTimeout(() => {
-                                    skill.classList.add('visible');
+                                    skill.classList.add("visible");
                                 }, index * 100);
                             });
                         }
 
                         // Check for the new square grid class
-                        if (entry.target.classList.contains('projects-grid-square')) {
-                            const projects = entry.target.querySelectorAll('.project-card');
+                        if (entry.target.classList.contains("projects-grid-square")) {
+                            const projects = entry.target.querySelectorAll(".project-card");
                             projects.forEach((project, index) => {
                                 setTimeout(() => {
-                                    project.classList.add('visible');
+                                    project.classList.add("visible");
                                 }, index * 150);
                             });
                         }
 
-                        if (entry.target.classList.contains('timeline')) {
-                            const items = entry.target.querySelectorAll('.timeline-item');
+                        if (entry.target.classList.contains("timeline")) {
+                            const items = entry.target.querySelectorAll(".timeline-item");
                             items.forEach((item, index) => {
                                 setTimeout(() => {
-                                    item.classList.add('visible');
+                                    item.classList.add("visible");
                                 }, index * 200);
                             });
                         }
 
                         // Animate resume cards
-                        if (entry.target.classList.contains('resume-container')) {
-                            const cards = entry.target.querySelectorAll('.resume-card');
+                        if (entry.target.classList.contains("resume-container")) {
+                            const cards = entry.target.querySelectorAll(".resume-card");
                             cards.forEach((card, index) => {
                                 setTimeout(() => {
-                                    card.classList.add('visible');
+                                    card.classList.add("visible");
                                 }, index * 200);
                             });
                         }
@@ -1891,29 +1953,34 @@
             }, observerOptions);
 
             // Observe all sections
-            document.querySelectorAll('.section').forEach(section => {
+            document.querySelectorAll(".section").forEach((section) => {
                 observer.observe(section);
             });
 
             // Observe individual elements that need animation
-            document.querySelectorAll('.service-card, .skill-item, .project-card, .timeline-item, .resume-card').forEach(el => {
-                observer.observe(el);
-            });
+            document
+                .querySelectorAll(
+                    ".service-card, .skill-item, .project-card, .timeline-item, .resume-card"
+                )
+                .forEach((el) => {
+                    observer.observe(el);
+                });
         });
 
-
-        document.addEventListener('DOMContentLoaded', () => {
+        document.addEventListener("DOMContentLoaded", () => {
             // Select the container for the fact items
-            const factsContainer = document.getElementById('facts-counter');
+            const factsContainer = document.getElementById("facts-counter");
             // Select all the h1 elements that have the data-count attribute inside the container
-            const counters = factsContainer ? factsContainer.querySelectorAll('h1[data-count]') : [];
+            const counters = factsContainer
+                ? factsContainer.querySelectorAll("h1[data-count]")
+                : [];
 
             // Flag to ensure the counter only runs once
             let countersAnimated = false;
 
             const countUp = (element) => {
                 // Get the target number from the data-count attribute, converting it to an integer
-                const target = parseInt(element.getAttribute('data-count'), 10);
+                const target = parseInt(element.getAttribute("data-count"), 10);
                 // Set the duration of the animation (in milliseconds)
                 const duration = 2000;
                 // Start the counter at 0
@@ -1928,14 +1995,14 @@
                     let currentCount = Math.floor(progress * target);
 
                     // Update the text
-                    element.innerText = currentCount + '+';
+                    element.innerText = currentCount + "+";
 
                     // Continue animation if not finished
                     if (progress < 1) {
                         requestAnimationFrame(updateCount);
                     } else {
                         // Ensure the final value is exactly the target
-                        element.innerText = target + '+';
+                        element.innerText = target + "+";
                     }
                 };
 
@@ -1944,17 +2011,20 @@
             };
 
             // Use Intersection Observer to trigger the counter when it's visible
-            const counterObserver = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting && !countersAnimated) {
-                        counters.forEach(countUp);
-                        countersAnimated = true; // Set flag to true
-                        observer.unobserve(entry.target); // Stop observing once animated
-                    }
-                });
-            }, {
-                threshold: 0.5 // Trigger when 50% of the element is visible
-            });
+            const counterObserver = new IntersectionObserver(
+                (entries, observer) => {
+                    entries.forEach((entry) => {
+                        if (entry.isIntersecting && !countersAnimated) {
+                            counters.forEach(countUp);
+                            countersAnimated = true; // Set flag to true
+                            observer.unobserve(entry.target); // Stop observing once animated
+                        }
+                    });
+                },
+                {
+                    threshold: 0.5, // Trigger when 50% of the element is visible
+                }
+            );
 
             if (factsContainer) {
                 counterObserver.observe(factsContainer);
@@ -1962,18 +2032,18 @@
         });
 
         // Rotating text functionality for the freelancer section
-        document.addEventListener('DOMContentLoaded', function () {
-            const rotatingTexts = document.querySelectorAll('.rotating-text');
+        document.addEventListener("DOMContentLoaded", function () {
+            const rotatingTexts = document.querySelectorAll(".rotating-text");
             let currentIndex = 0;
 
             function rotateText() {
                 // Remove active class from all texts
-                rotatingTexts.forEach(text => {
-                    text.classList.remove('active');
+                rotatingTexts.forEach((text) => {
+                    text.classList.remove("active");
                 });
 
                 // Add active class to current text
-                rotatingTexts[currentIndex].classList.add('active');
+                rotatingTexts[currentIndex].classList.add("active");
 
                 // Move to next text
                 currentIndex = (currentIndex + 1) % rotatingTexts.length;
@@ -1985,9 +2055,7 @@
             // Set interval for rotation (every 3 seconds)
             setInterval(rotateText, 3000);
         });
-
     </script>
-
 </body>
 
 </html>
